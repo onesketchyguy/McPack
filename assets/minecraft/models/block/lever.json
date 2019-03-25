@@ -1,0 +1,82 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/cobblestone",
+		"1": "block/lever",
+		"2": "block/redstone_torch",
+		"particle": "block/lever"
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"from": [7, 0, 5],
+			"to": [9, 2, 11],
+			"faces": {
+				"up": {"uv": [8, 13, 9, 14], "texture": "#1"},
+				"down": {"uv": [13, 3, 14, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [7, 2, 8],
+			"to": [9, 5, 10],
+			"faces": {
+				"north": {"uv": [8, 7, 9, 11], "texture": "#2"},
+				"east": {"uv": [8, 7, 9, 11], "texture": "#2"},
+				"south": {"uv": [8, 7, 9, 11], "texture": "#2"},
+				"west": {"uv": [8, 7, 9, 11], "texture": "#2"},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#2"},
+				"down": {"uv": [7, 6, 9, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [9, 0, 4],
+			"to": [11, 3, 12],
+			"faces": {
+				"north": {"uv": [6, 3, 7, 5], "texture": "#0"},
+				"east": {"uv": [6, 3, 7, 5], "texture": "#0"},
+				"south": {"uv": [6, 3, 7, 5], "texture": "#0"},
+				"west": {"uv": [3, 4, 4, 5], "texture": "#0"},
+				"up": {"uv": [3, 5, 4, 6], "texture": "#0"},
+				"down": {"uv": [13, 3, 14, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [7, 0, 4],
+			"to": [9, 3, 6],
+			"faces": {
+				"north": {"uv": [6, 3, 7, 5], "texture": "#0"},
+				"south": {"uv": [3, 4, 4, 5], "texture": "#0"},
+				"up": {"uv": [3, 5, 4, 6], "texture": "#0"},
+				"down": {"uv": [13, 3, 14, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [5, 0, 4],
+			"to": [7, 3, 12],
+			"faces": {
+				"north": {"uv": [6, 3, 7, 5], "texture": "#0"},
+				"east": {"uv": [3, 4, 4, 5], "texture": "#0"},
+				"south": {"uv": [6, 3, 7, 5], "texture": "#0"},
+				"west": {"uv": [6, 3, 7, 5], "texture": "#0"},
+				"up": {"uv": [3, 5, 4, 6], "texture": "#0"},
+				"down": {"uv": [13, 3, 14, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [7, 0, 10],
+			"to": [9, 3, 12],
+			"faces": {
+				"north": {"uv": [3, 4, 4, 5], "texture": "#0"},
+				"south": {"uv": [6, 3, 7, 5], "texture": "#0"},
+				"up": {"uv": [3, 5, 4, 6], "texture": "#0"},
+				"down": {"uv": [13, 3, 14, 4], "texture": "#0"}
+			}
+		}
+	]
+}

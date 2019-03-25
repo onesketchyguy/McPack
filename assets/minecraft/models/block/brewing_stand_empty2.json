@@ -1,0 +1,40 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "block/brewing_stand",
+        "stand": "block/brewing_stand"
+    },
+    "elements": [
+        {
+            "from": [2,9,11],
+            "to": [6,10,15],
+            "faces": {
+                "up": {
+                    "uv": [6,3,7,4],
+                    "texture": "#particle"
+                },
+                "down": {
+                    "uv": [9,6,10,7],
+                    "texture": "#stand"
+                },
+                "west": {
+                    "uv": [9,4,10,10],
+                    "texture": "#stand"
+                },
+                "east": {
+                    "uv": [9,4,10,7],
+                    "texture": "#stand"
+                },
+                "north": {
+                    "uv": [9,5,10,11],
+                    "texture": "#stand"
+                },
+                "south": {
+                    "uv": [9,4,10,10],
+                    "texture": "#stand"
+                }
+            }
+        }
+    ]
+}
